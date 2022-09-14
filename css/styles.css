@@ -823,8 +823,11 @@ border: 1px solid #AFB1B8;
  }
 
  /* ====== foter-input ===== */
-   
 
+
+   .footer-wrapper {
+    display: flex;
+   }
 
  .footer-input-titel {
     color: var(--stock-color);
@@ -865,7 +868,6 @@ color: rgba(255, 255, 255, 0.6);
  }
 
 
-
  .footer-modal-form-buttom {
  
      position: relative;
@@ -892,13 +894,9 @@ color: rgba(255, 255, 255, 0.6);
      line-height: 1.9;
      letter-spacing: 0.06em;
      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-     border-radius: 4px;
+     border-radius: 4
      
      
-     
-     
-
-
 
  }
 
@@ -921,16 +919,6 @@ color: rgba(255, 255, 255, 0.6);
     
 }
 
-
-
-
-.footer-form-icon-send {
-    position: absolute;
-    top: 50%;
-    right: 10;
-transform: translateY(-50% );
-
-}
  
 
 
