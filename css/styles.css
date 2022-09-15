@@ -1181,9 +1181,16 @@ padding: 40px;
 }
 
 .modal-form-field {
-    margin-bottom: 20px;
-
+   margin-bottom: 10px;
 }
+
+.modal-form-field-last {
+    margin-bottom: 20px;
+}
+
+ 
+ 
+
 
 .modal-form-field-desc {
     display: block;
