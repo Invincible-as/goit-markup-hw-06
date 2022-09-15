@@ -825,7 +825,8 @@ border: 1px solid #AFB1B8;
  /* ====== foter-input ===== */
 
 
-   .footer-wrapper {
+
+   .footer-form {
     display: flex;
    }
 
@@ -841,7 +842,7 @@ border: 1px solid #AFB1B8;
 
  .footer-form-field {
 
-    margin-right: 12px;
+    margin-right: 10px;
 
  }
 
@@ -875,11 +876,12 @@ color: rgba(255, 255, 255, 0.6);
  }
 
 .footer-form-button {
+ 
     display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
-    border: none;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+       
 
 }
 
@@ -894,8 +896,8 @@ color: rgba(255, 255, 255, 0.6);
      line-height: 1.9;
      letter-spacing: 0.06em;
      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-     border-radius: 4
-     
+     border-radius: 4px;
+       
      
 
  }
@@ -1265,7 +1267,7 @@ font-size: 12px;
 .modal-form-check {
     width: 16px;
     height: 14px;
-    
+    opacity: 0;
 }
 
 .modal-form-own-checkbox {
@@ -1349,6 +1351,3 @@ width: 200px;
 
 }
 
-.modal-form-submit {
-    padding: 10px 52px;
-}
